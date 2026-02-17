@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemmeland Sports - Personal Training aan de Gouwzee, Monnickendam</title>
+  <meta name="description" content="Personal training op het Hemmeland in Monnickendam. Trainer Bas van Kalken biedt training op maat, buiten aan het water. Veilig, persoonlijk en resultaatgericht.">
+  <meta name="keywords" content="personal training Monnickendam, personal trainer Waterland, buiten sporten, Hemmeland Sports, Bas van Kalken, 45+ fitness">
+  <meta name="author" content="Hemmeland Sports">
+  <meta property="og:title" content="Hemmeland Sports - De kracht van bewegen">
+  <meta property="og:description" content="Personal training aan de Gouwzee in Monnickendam. Persoonlijke begeleiding door Bas van Kalken.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta property="og:url" content="https://hemmelandsports.nl">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_NL">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Sora:wght@300;400;500;600;700&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Sora:wght@300;400;500;600;700&display=swap"></noscript>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Critical inline fallback - ensures page is never blank */
+    body{margin:0;background:#fafaf7;color:#141914;font-family:'Sora',system-ui,sans-serif}
+    .loader{position:fixed;inset:0;z-index:9999;background:#0c0f0a;display:flex;align-items:center;justify-content:center}
+    .loader.done{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .6s,visibility .6s}
+  </style>
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <img class="loader-logo" src="assets/images/logo-hemmeland-transparent.png" alt="" width="70" height="70">
+      <div class="loader-line"></div>
+      <span class="loader-text">Hemmeland Sports</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header" id="header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Hemmeland Sports">
+        <img class="logo-img" src="assets/images/logo-hemmeland-transparent.png" alt="Hemmeland Sports" width="44" height="44">
+      </a>
+      <nav class="nav" id="mainNav" role="navigation" aria-label="Hoofdnavigatie">
+        <ul class="nav-list">
+          <li><a href="#filosofie">Filosofie</a></li>
+          <li><a href="#aanbod">Aanbod</a></li>
+          <li><a href="#locatie">Locatie</a></li>
+          <li><a href="#trainer">Trainer</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#tarieven">Tarieven</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm header-cta">Gratis proefles</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-media">
+      <div class="hero-img" role="img" aria-label="Buiten trainen op het Hemmeland met uitzicht op de Gouwzee"></div>
+      <div class="hero-grain"></div>
+      <div class="hero-fade"></div>
+    </div>
+    <!-- Logo watermark in hero -->
+    <img class="hero-watermark" src="assets/images/logo-hemmeland-transparent.png" alt="" aria-hidden="true">
+    <div class="hero-content">
+      <span class="hero-eyebrow reveal" data-delay="0">Personal Training - Monnickendam</span>
+      <h1 class="hero-title">
+        <span class="reveal" data-delay="1">De kracht</span><br>
+        <span class="reveal" data-delay="2">van <em>bewegen</em></span>
+      </h1>
+      <p class="hero-body reveal" data-delay="3">Train buiten op het Hemmeland, aan de Gouwzee. Persoonlijke begeleiding afgestemd op jouw lichaam, jouw doelen en jouw tempo.</p>
+      <div class="hero-actions reveal" data-delay="4">
+        <a href="#contact" class="btn btn-primary">Plan een gratis proefles</a>
+        <a href="#aanbod" class="btn btn-ghost">Ontdek het aanbod</a>
+      </div>
+      <div class="hero-stats reveal" data-delay="5">
+        <div class="stat">
+          <span class="stat-value" data-count="20">0</span>
+          <span class="stat-label">Jaar ervaring</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">4.9</span>
+          <span class="stat-label">Google rating</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">1 op 1</span>
+          <span class="stat-label">Persoonlijk</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Veilig trainen</span><span class="marquee-dot"></span>
+      <span>Buiten sporten</span><span class="marquee-dot"></span>
+      <span>Training op maat</span><span class="marquee-dot"></span>
+      <span>Holistische aanpak</span><span class="marquee-dot"></span>
+      <span>Kracht &amp; balans</span><span class="marquee-dot"></span>
+      <span>Veilig trainen</span><span class="marquee-dot"></span>
+      <span>Buiten sporten</span><span class="marquee-dot"></span>
+      <span>Training op maat</span><span class="marquee-dot"></span>
+      <span>Holistische aanpak</span><span class="marquee-dot"></span>
+      <span>Kracht &amp; balans</span><span class="marquee-dot"></span>
+    </div>
+  </div>
+
+  <!-- FILOSOFIE -->
+  <section class="section filosofie" id="filosofie">
+    <div class="filosofie-bg" style="background-image:url('assets/images/hemmeland-sign.png')"></div>
+    <div class="filosofie-overlay"></div>
+    <!-- Logo watermark -->
+    <img class="section-watermark" src="assets/images/logo-hemmeland-transparent.png" alt="" aria-hidden="true">
+    <div class="wrap filosofie-content">
+      <div class="section-intro anim">
+        <span class="label label--light">Bas' filosofie</span>
+        <h2>Lichaam en geest<br>als <em>een geheel</em></h2>
+        <p class="intro-body intro-body--light">Training gaat verder dan alleen het fysieke. Bas werkt aan kracht, balans en mentale rust - als een geheel.</p>
+      </div>
+      <div class="values-grid">
+        <article class="value-card anim" style="--i:1">
+          <div class="value-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"/><path d="M24 14v10l7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Veiligheid</h3>
+          <p>Je traint veilig en verantwoord. Elke oefening wordt nauwkeurig begeleid, afgestemd op jouw belastbaarheid van dat moment.</p>
+        </article>
+        <article class="value-card anim" style="--i:2">
+          <div class="value-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"/><path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="24" r="2" fill="currentColor"/></svg>
+          </div>
+          <h3>Respect</h3>
+          <p>Wie je bent en in welke conditie je komt maakt niet uit. Je krijgt volle aandacht en een training die bij jou past.</p>
+        </article>
+        <article class="value-card anim" style="--i:3">
+          <div class="value-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"/><path d="M15 28l5-5 4 4 9-11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Resultaat</h3>
+          <p>Samen stellen jullie realistische doelen, evalueren regelmatig en sturen bij. Plezier staat voorop - resultaat volgt vanzelf.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AANBOD -->
+  <section class="section aanbod" id="aanbod">
+    <div class="wrap">
+      <div class="section-intro anim">
+        <span class="label">Het aanbod</span>
+        <h2>Trainen op <em>jouw</em> manier</h2>
+        <p class="intro-body">Kies wat bij jou past. Elke training is volledig op maat - buiten op het Hemmeland of in de studio.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service anim" style="--i:1">
+          <div class="service-image"><img src="assets/images/service-personal.jpg" alt="Een-op-een personal training sessie met gewichten" loading="lazy"><div class="service-number">01</div></div>
+          <div class="service-info"><h3>Personal Training</h3><p>Een-op-een training volledig afgestemd op jouw doelen. Kracht, kettlebells, boksen, crossfit-stijl of een combinatie.</p><a href="#contact" class="link-arrow">Plan een sessie <span>&#8594;</span></a></div>
+        </article>
+        <article class="service anim" style="--i:2">
+          <div class="service-image"><img src="assets/images/service-45plus.jpg" alt="Fit en actief blijven op elke leeftijd" loading="lazy"><div class="service-number">02</div></div>
+          <div class="service-info"><h3>45+ Trainingen</h3><p>Speciaal voor 45-plussers. Focus op krachtbehoud, mobiliteit en vitaliteit. Veilig trainen met aandacht voor jouw lichaam.</p><a href="#contact" class="link-arrow">Meer informatie <span>&#8594;</span></a></div>
+        </article>
+        <article class="service anim" style="--i:3">
+          <div class="service-image"><img src="assets/images/gouwzee-sunset.png" alt="Buiten sporten in de natuur bij het water" loading="lazy"><div class="service-number">03</div></div>
+          <div class="service-info"><h3>Buiten Training</h3><p>Trainen met uitzicht op de Gouwzee en Marken. Jij kiest: buiten aan het water of binnen in de studio. Frisse lucht of gecontroleerde omgeving.</p><a href="#contact" class="link-arrow">Bekijk de locatie <span>&#8594;</span></a></div>
+        </article>
+        <article class="service anim" style="--i:4">
+          <div class="service-image"><img src="assets/images/service-coaching.jpg" alt="Gesprek over voeding en leefstijl" loading="lazy"><div class="service-number">04</div></div>
+          <div class="service-info"><h3>Leefstijl &amp; Voeding</h3><p>Bas is ook leefstijl- en voedingsdeskundige. Training, voeding en mentaal welzijn als een geheel.</p><a href="#contact" class="link-arrow">Vraag een intake aan <span>&#8594;</span></a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARALLAX BREAK -->
+  <section class="parallax-break" role="presentation" aria-hidden="true">
+    <div class="parallax-img" style="background-image:url('assets/images/gouwzee-sunset.png')"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-text">
+      <span class="parallax-quote">"De drempel om weer te moeten wordt bij Bas al snel zin om weer te mogen."</span>
+    </div>
+  </section>
+
+
+
+  <!-- DE LOCATIE -->
+  <section class="section locatie-section" id="locatie">
+    <div class="wrap">
+      <div class="locatie-grid">
+        <div class="locatie-images anim">
+          <div class="locatie-img locatie-img--main"><img src="assets/images/gouwzee-sunset.png" alt="Uitzicht over de Gouwzee bij zonsondergang" loading="lazy"></div>
+          <div class="locatie-img locatie-img--secondary"><img src="assets/images/hemmeland-sign.png" alt="Het Hemmeland bord bij de ingang" loading="lazy"></div>
+          <div class="locatie-img locatie-img--tertiary"><img src="assets/images/monnickendam-aerial.png" alt="Monnickendam vanuit de lucht" loading="lazy"></div>
+        </div>
+        <div class="locatie-content anim" style="--i:1">
+          <span class="label">De locatie</span>
+          <h2>Het <em>Hemmeland</em></h2>
+          <p class="locatie-intro">Trainen op een plek waar je direct tot rust komt. Het Hemmeland is een open, groen recreatiegebied vlak buiten Monnickendam, direct aan het water van de Gouwzee.</p>
+          <div class="locatie-features">
+            <div class="locatie-feature">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <div><strong>Vrijheid</strong><p>Geen sportschoolmuren, geen kunstlicht. Hier train je met de wind in je haar en ruimte om je heen.</p></div>
+            </div>
+            <div class="locatie-feature">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              <div><strong>Sportieve energie</strong><p>Hardlopers, zwemmers, zeilers - het Hemmeland trekt actieve mensen aan. Die energie werkt aanstekelijk.</p></div>
+            </div>
+            <div class="locatie-feature">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><strong>Uitzicht dat heelt</strong><p>De weidsheid van de Gouwzee, het silhouet van Marken aan de horizon. Na een training voel je je lichter - mentaal en fysiek.</p></div>
+            </div>
+            <div class="locatie-feature">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              <div><strong>Studio als uitvalsbasis</strong><p>Liever binnen? De studio staat op dezelfde locatie. Jij kiest wat bij je past - of wissel af.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINER -->
+  <section class="section trainer-section" id="trainer">
+    <div class="wrap trainer-grid">
+      <div class="trainer-portrait anim">
+        <div class="portrait-frame"><img src="assets/images/trainer-bas.jpg" alt="Bas van Kalken - Personal Trainer" loading="lazy"></div>
+        <div class="portrait-accent"></div>
+      </div>
+      <div class="trainer-content anim" style="--i:1">
+        <span class="label">Jouw trainer</span>
+        <h2>Bas van <em>Kalken</em></h2>
+        <p class="trainer-subtitle">Gecertificeerd Personal Trainer &amp; Voedingsdeskundige - 20+ jaar ervaring</p>
+        <p>Bas ontdekte wat bewegen voor hem persoonlijk betekende en maakte er zijn leven van. Van nature een denker met een drukke geest, vond hij in sport de rust en balans die hij zocht.</p>
+        <p>Met ruim 20 jaar ervaring, diploma's in fitness, personal training en voedingskunde combineert hij vakkennis met oprechte persoonlijke aandacht.</p>
+        <blockquote class="trainer-quote">"Het mooiste van mijn werk is als het wonder dat zich bij mij voltrok - in balans raken door sport - zich ook voordoet bij mijn client."</blockquote>
+        <div class="trainer-creds">
+          <span class="cred">Fit!Vak Fitness Trainer</span>
+          <span class="cred">Fit!Vak Personal Training</span>
+          <span class="cred">Voedingsdeskundige</span>
+          <span class="cred">Lifecoach</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS CAROUSEL - 12 reviews -->
+  <section class="section reviews-section" id="reviews">
+    <div class="wrap">
+      <div class="section-intro anim">
+        <span class="label">Ervaringen</span>
+        <h2>Wat clienten <em>zeggen</em></h2>
+      </div>
+    </div>
+    <div class="reviews-carousel anim" style="--i:1">
+      <div class="reviews-track" id="reviewsTrack">
+        <blockquote class="review-slide"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Ik ben 53 en train al meer dan 15 jaar twee keer per week bij Bas. Bas traint zonder oordeel, kan zijn klanten goed lezen en stemt de trainingen af op wat ik die dag waard ben. De drempel om weer te moeten wordt bij Bas al snel zin om weer te mogen."</p><footer><strong>Marcel Reurs</strong><span>Lid 15+ jaar</span></footer></blockquote>
+        <blockquote class="review-slide"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Top personal trainer die zich vol interesse verdiept in zijn klant en persoonlijk maatwerk levert op een met recht unieke locatie."</p><footer><strong>Erik Deerenberg</strong></footer></blockquote>
+        <blockquote class="review-slide"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Ik train al 3 jaar bij deze personal trainer op het Hemmeland. De combinatie van intensieve trainingen en coachende gesprekken hebben mijn mentale en fysieke welzijn aanzienlijk verbeterd."</p><footer><strong>Dix Vlaming</strong><span>Lid 3+ jaar</span></footer></blockquote>
+        <blockquote class="review-slide"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Sinds 2014 train ik met heel veel plezier bij Hemmeland Sports. Door de training van Bas ben ik sterker en fitter geworden. De rugklachten waar ik voorheen last van had, zijn sindsdien verdwenen. De trainingen zijn effectief, persoonlijk en met veel variatie."</p><footer><strong>Tevreden client</strong><span>Lid sinds 2014</span></footer></blockquote>
+        <blockquote class="review-slide"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Bas investeert veel in nieuwe materialen en methodes en beschikt over veel kennis m.b.t. voeding en supplementen. Bovenal is Bas een aangenaam mens. En last but not least: de locatie maakt de training extra de moeite waard. In de zomer duik je na de training zo het water van de Gouwzee in."</p><footer><strong>Tevreden client</strong><span>Lid sinds 2014</span></footer></blockquote>
+        <blockquote class="review-slide"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Na een knieoperatie kon ik veel sneller dan verwacht herstellen. Bas zijn aanpak zorgt ervoor dat ik nooit trainingsblessures heb. Ik kan Bas aanraden, met name voor mannen en vrouwen tussen de 40 en 60 die fit en sterk willen worden en blijven."</p><footer><strong>Marcel Reurs</strong><span>Monnickendam</span></footer></blockquote>
+      </div>
+    </div>
+    <div class="wrap reviews-controls anim" style="--i:2">
+      <button class="carousel-btn carousel-prev" id="reviewsPrev" aria-label="Vorige review">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      </button>
+      <div class="carousel-dots" id="carouselDots"></div>
+      <button class="carousel-btn carousel-next" id="reviewsNext" aria-label="Volgende review">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- TARIEVEN -->
+  <section class="section tarieven-section" id="tarieven">
+    <div class="wrap">
+      <div class="section-intro anim">
+        <span class="label">Tarieven</span>
+        <h2>Investeer in <em>jezelf</em></h2>
+        <p class="intro-body">Transparante prijzen, geen verborgen kosten. Elk traject start met een persoonlijk kennismakingsgesprek.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card anim" style="--i:1">
+          <div class="price-top"><h3>1x per week</h3><p class="price-subtitle">Personal training</p></div>
+          <div class="price-amount"><span class="price-currency">&#8364;</span><span class="price-number">49,50</span><span class="price-per">/ sessie</span></div>
+          <ul class="price-features"><li>45 minuten training</li><li>Volledig op maat</li><li>Buiten of in de studio</li><li>Programma op jouw niveau</li></ul>
+          <a href="#contact" class="btn btn-outline btn-block">Start hier</a>
+        </article>
+        <article class="price-card price-card--accent anim" style="--i:2">
+          <div class="price-badge">Meest gekozen</div>
+          <div class="price-top"><h3>2x per week</h3><p class="price-subtitle">Personal training</p></div>
+          <div class="price-amount"><span class="price-currency">&#8364;</span><span class="price-number">42,50</span><span class="price-per">/ sessie</span></div>
+          <ul class="price-features"><li>45 minuten per sessie</li><li>Volledig op maat</li><li>Buiten of in de studio</li><li>Voedingsadvies inbegrepen</li><li>Sneller resultaat</li></ul>
+          <a href="#contact" class="btn btn-primary btn-block">Plan proefles</a>
+        </article>
+        <article class="price-card anim" style="--i:3">
+          <div class="price-top"><h3>Op locatie</h3><p class="price-subtitle">Trainer komt naar jou</p></div>
+          <div class="price-amount"><span class="price-currency">&#8364;</span><span class="price-number">62,50</span><span class="price-per">/ sessie</span></div>
+          <ul class="price-features"><li>45 minuten training</li><li>Op jouw locatie</li><li>Alle materialen meegebracht</li><li>Volledig op maat</li></ul>
+          <a href="#contact" class="btn btn-outline btn-block">Neem contact op</a>
+        </article>
+      </div>
+      <p class="pricing-note anim" style="--i:4">Afspraken kunnen tot 24 uur van tevoren kosteloos worden geannuleerd.</p>
+    </div>
+  </section>
+
+  <!-- IN DE MEDIA -->
+  <section class="section media-section" id="media">
+    <div class="wrap">
+      <div class="section-intro anim">
+        <span class="label">In de media</span>
+        <h2>Bekend van <em>krant en pers</em></h2>
+      </div>
+      <div class="media-grid">
+        <article class="media-card media-card--main anim" style="--i:1">
+          <div class="media-badge">Krantenartikel</div>
+          <div class="media-source"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M18 18h-8M18 10h-8"/></svg><span>Noordhollands Dagblad - 2024</span></div>
+          <h3><a href="https://www.linkedin.com/posts/bas-van-kalken-97bb49a_interview-noordhollandsdagblad-hemmelandsports-activity-6540964825634263040-INUV" target="_blank" rel="noopener" class="media-link">Interview: Personal Trainer Bas van Kalken op het Hemmeland</a></h3>
+          <p>Het Noordhollands Dagblad portretteerde Bas in een uitgebreid interview over zijn werk als personal trainer op het Hemmeland. Over de kracht van bewegen, de unieke buitenlocatie aan de Gouwzee en zijn holistische benadering van training.</p>
+          <blockquote class="media-quote">"Ik ben trainer geworden nadat ik had ontdekt wat bewegen voor mij persoonlijk betekent. Sporten werd het uitgangspunt van mijn leven."</blockquote>
+          <span class="media-tag">Bas van Kalken in het Noordhollands Dagblad</span>
+          <a href="https://www.linkedin.com/posts/bas-van-kalken-97bb49a_interview-noordhollandsdagblad-hemmelandsports-activity-6540964825634263040-INUV" target="_blank" rel="noopener" class="media-read-link">Bekijk op LinkedIn &#8594;</a>
+        </article>
+        <article class="media-card anim" style="--i:2">
+          <div class="media-source"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M18 18h-8M18 10h-8"/></svg><span>Het Parool - PS</span></div>
+          <h3><a href="https://www.parool.nl/ps/zij-namen-een-hond-zodra-de-kinderen-het-huis-uit-waren-ik-had-zin-in-een-nieuw-project-waar-ik-mijn-zorg-op-kon-richten~bd00c2ba1/" target="_blank" rel="noopener" class="media-link">Portret: een nieuw begin na de kinderen</a></h3>
+          <p>In een artikel van Het Parool vertelde Bas over hoe hij na een eerdere carriere een compleet nieuw pad insloeg. Personal training als levensmissie.</p>
+          <a href="https://www.parool.nl/ps/zij-namen-een-hond-zodra-de-kinderen-het-huis-uit-waren-ik-had-zin-in-een-nieuw-project-waar-ik-mijn-zorg-op-kon-richten~bd00c2ba1/" target="_blank" rel="noopener" class="media-read-link">Lees op Het Parool &#8594;</a>
+        </article>
+        <article class="media-card anim" style="--i:3">
+          <div class="media-source"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg><span>PersonalTrainers.nl</span></div>
+          <h3><a href="https://www.personaltrainers.nl/personal-trainer/Nederland/Monnickendam/1180/Bas+van+Kalken" target="_blank" rel="noopener" class="media-link">Erkend trainer met holistische visie</a></h3>
+          <p>Op PersonalTrainers.nl wordt Bas erkend als specialist in kracht, functional en hybride training. 15+ jaar ervaring en een unieke holistische benadering.</p>
+          <a href="https://www.personaltrainers.nl/personal-trainer/Nederland/Monnickendam/1180/Bas+van+Kalken" target="_blank" rel="noopener" class="media-read-link">Bekijk profiel &#8594;</a>
+        </article>
+      </div>
+      <div class="media-cta anim" style="--i:4">
+        <a href="https://wa.me/31617840812?text=Hoi%20Bas!%20Ik%20wil%20graag%20een%20intake%20plannen." class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.61.609l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.352 0-4.55-.684-6.406-1.86l-.446-.29-2.633.882.882-2.633-.29-.446A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Plan een intake via WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq-section" id="faq">
+    <div class="wrap faq-wrap">
+      <div class="section-intro anim">
+        <span class="label">Veelgestelde vragen</span>
+        <h2>Nog <em>vragen?</em></h2>
+      </div>
+      <div class="faq-list anim" style="--i:1">
+        <details class="faq-item"><summary><span>Hoe werkt een gratis proefles?</span><span class="faq-icon"></span></summary><div class="faq-body"><p>Neem contact op via WhatsApp of het contactformulier. Bas plant een kennismakingsgesprek in en je kunt een training uitproberen - geheel vrijblijvend.</p></div></details>
+        <details class="faq-item"><summary><span>Moet ik al fit zijn om te beginnen?</span><span class="faq-icon"></span></summary><div class="faq-body"><p>Absoluut niet. Elke training wordt afgestemd op jouw huidige niveau en belastbaarheid. Of je beginner bent of gevorderd - je bent welkom.</p></div></details>
+        <details class="faq-item"><summary><span>Wat neem ik mee naar een training?</span><span class="faq-icon"></span></summary><div class="faq-body"><p>Draag comfortabele sportkleding en stevige schoenen. Breng een fles water mee. Alle trainingsmaterialen zijn aanwezig.</p></div></details>
+        <details class="faq-item"><summary><span>Waar wordt er getraind?</span><span class="faq-icon"></span></summary><div class="faq-body"><p>Op het Hemmeland in Monnickendam, met uitzicht op de Gouwzee en Marken. Je kiest zelf: buiten trainen of in de studio op dezelfde locatie.</p></div></details>
+        <details class="faq-item"><summary><span>Kan ik ook voedingsadvies krijgen?</span><span class="faq-icon"></span></summary><div class="faq-body"><p>Ja, Bas is gecertificeerd voedingsdeskundige. Voeding kan integraal of als los advies worden afgenomen.</p></div></details>
+        <details class="faq-item"><summary><span>Kan ik afspraken annuleren?</span><span class="faq-icon"></span></summary><div class="faq-body"><p>Ja, tot 24 uur van tevoren kosteloos. Bij te late afzegging wordt de gereserveerde tijd in rekening gebracht.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section class="section contact-cta" id="contact">
+    <div class="contact-bg">
+      <div class="contact-bg-img" style="background-image:url('assets/images/waterland_footer_large.png')"></div>
+      <div class="contact-bg-overlay"></div>
+    </div>
+    <!-- Logo watermark in contact -->
+    <img class="contact-watermark" src="assets/images/logo-hemmeland-transparent.png" alt="" aria-hidden="true">
+    <div class="wrap contact-inner anim">
+      <span class="label label--light">Begin vandaag</span>
+      <h2>Klaar om de eerste<br>stap te <em>zetten?</em></h2>
+      <p>Plan een gratis en vrijblijvende proefles.<br>Bel, mail of stuur een WhatsApp bericht.</p>
+      <div class="contact-actions">
+        <a href="https://wa.me/31617840812?text=Hoi%20Bas!%20Ik%20wil%20graag%20een%20proefles%20plannen." class="btn btn-primary btn-lg" target="_blank" rel="noopener"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.61.609l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.352 0-4.55-.684-6.406-1.86l-.446-.29-2.633.882.882-2.633-.29-.446A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>WhatsApp Bas</a>
+        <a href="tel:+31617840812" class="btn btn-ghost btn-lg">Bel 06 1784 0812</a>
+      </div>
+      <a href="mailto:info@hemmelandsports.nl" class="contact-email">info@hemmelandsports.nl</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="wrap footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Hemmeland Sports">
+            <img class="logo-img logo-img--footer" src="assets/images/logo-hemmeland-transparent.png" alt="Hemmeland Sports" width="36" height="36"><span class="logo-name">Hemmeland Sports</span>
+          </a>
+          <p>De kracht van bewegen.<br>Personal training op het Hemmeland, Monnickendam.</p>
+        </div>
+        <div class="footer-col"><h4>Navigatie</h4><ul><li><a href="#filosofie">Filosofie</a></li><li><a href="#aanbod">Aanbod</a></li><li><a href="#locatie">Locatie</a></li>
+          <li><a href="#trainer">Trainer</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#tarieven">Tarieven</a></li><li><a href="#media">Media</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><address><p>Hemmeland 12<br>1141 AT Monnickendam</p><p><a href="tel:+31617840812">06 1784 0812</a></p><p><a href="mailto:info@hemmelandsports.nl">info@hemmelandsports.nl</a></p></address></div>
+        <div class="footer-col"><h4>Tijden</h4><p>Ma - Vr: 07:00 - 21:00</p><p>Za: 08:00 - 13:00</p><p>Zo: Gesloten</p></div>
+      </div>
+      <div class="footer-bottom">
+        <p>&#169; 2026 Hemmeland Sports</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/hemmelandsports/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="https://www.facebook.com/hemmelandsports/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA -->
+  <div class="mobile-cta" id="mobileCta" aria-label="Plan een proefles">
+    <a href="https://wa.me/31617840812?text=Hoi%20Bas!%20Ik%20wil%20graag%20een%20proefles%20plannen." class="btn btn-primary mobile-cta-btn" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.61.609l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.352 0-4.55-.684-6.406-1.86l-.446-.29-2.633.882.882-2.633-.29-.446A9.935 9.935 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      Plan gratis proefles
+    </a>
+  </div>
+
+
+  <!-- AI CHATBOT BUTTON -->
+  <div class="chatbot-btn" id="chatbotBtn" aria-label="Stel een vraag aan de AI-assistent">
+    <div class="chatbot-pulse"></div>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+  </div>
+
+  <!-- AI CHATBOT PANEL -->
+  <div class="chatbot-panel" id="chatbotPanel" aria-hidden="true">
+    <div class="chatbot-header">
+      <img src="assets/images/logo-hemmeland-transparent.png" alt="" width="28" height="28" class="chatbot-logo">
+      <span>Hemmeland Sports AI</span>
+      <button class="chatbot-close" id="chatbotClose" aria-label="Sluit chat">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="chatbot-msg chatbot-msg--bot">
+        <p>Hoi! Ik ben de AI-assistent van Hemmeland Sports. Stel gerust een vraag over trainingen, tarieven, locatie of alles rondom personal training bij Bas.</p>
+      </div>
+    </div>
+    <div class="chatbot-input-wrap">
+      <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Stel je vraag..." autocomplete="off">
+      <button class="chatbot-send" id="chatbotSend" aria-label="Verstuur">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
